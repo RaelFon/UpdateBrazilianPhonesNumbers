@@ -1,0 +1,28 @@
+{
+  "name": "update-phone-numbers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/server.ts --watch 'src/' -e ts",
+    "compile": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-errors": "^3.1.1",
+    "google-libphonenumber": "^3.2.38",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

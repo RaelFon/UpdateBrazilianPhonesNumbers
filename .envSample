@@ -1,0 +1,5 @@
+ 
+BACKOFFICE_URL='http://...'
+CHECKLIST_URL='http://...'
+PORT=3000
+TOKEN=''
